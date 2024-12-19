@@ -1,0 +1,87 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: white;
+  margin: 0px;
+}
+
+.top a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.top img {
+  height: 150px;
+  width: 200px;
+  object-fit: contain;
+  color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.merge {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+/* .........left */
+.left {
+  margin-left: 100px;
+}
+/* ..........right */
+.right {
+  background-color: rgb(213, 220, 227);
+  border: 1px solid rgb(232, 221, 221);
+  padding: 20px;
+  margin-right: 100px;
+}
+.box {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  padding: 20px;
+  /* margin: 20px; */
+}
+
+/* footer */
+footer {
+  padding: 30px;
+}
+.anchor {
+  padding-left: 45%;
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hs {
+  text-align: center;
+}
+.hp {
+  text-align: center;
+  font-style: italic;
+  /* background-color: rgb(150, 166, 166);  */
+  width: 180px;
+  padding: 10px;
+}
+a {
+  color: black;
+}
+.hm {
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.dd {
+  display: flex;
+}

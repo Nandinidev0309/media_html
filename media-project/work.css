@@ -1,0 +1,85 @@
+.bgimage {
+  background-image: url("https://wallpapersok.com/images/hd/a-black-couple-celebrating-in-a-beautiful-setting-wwtu9036ivg7y6qh.jpg");
+  background-size: cover;
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+/*  */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.top img {
+  height: 150px;
+  width: 200px;
+  object-fit: contain;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+/*  */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.names {
+  font-family: cursive;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.names:hover {
+  background-image: url("../assets/images/img1.jpg");
+  background-size: cover;
+  height: 205vh;
+  width: 300vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+.view {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* footer */
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hs {
+  text-align: center;
+}
+.hp {
+  text-align: center;
+  font-style: italic;
+  width: 180px;
+  padding: 10px;
+}
+a {
+  color: black;
+}
+.hm {
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.dd {
+  display: flex;
+}
